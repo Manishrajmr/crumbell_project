@@ -15,3 +15,12 @@ menuToggle.addEventListener('click', function () {
     menuToggle.innerHTML = '<ion-icon name="menu-outline" aria-hidden="true"></ion-icon>';
   }
 });
+
+
+
+
+
+// Optional: JavaScript for additional functionality like analytics or logging
+document.getElementsByClassName('app-btn').addEventListener('click', function() {
+  console.log('Download started for APK');
+});
